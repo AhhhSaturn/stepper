@@ -1,0 +1,19 @@
+{
+  "name": "stepper",
+  "module": "src/index.ts",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/rpio": "^2.4.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "trustedDependencies": [
+    "epoll",
+    "rpio"
+  ],
+  "type": "module",
+  "dependencies": {
+    "rpio": "^2.4.2"
+  }
+}
