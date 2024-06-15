@@ -1,5 +1,11 @@
-console.log('meow')
+import * as sheild from '../lib/sheild/sheild.py';
 
-import * as stepper from './stepper.py'
+const stepper1 = new sheild.Stepper('STEPPER1');
+const forwardArrow = new sheild.Arrow(2);
 
-console.log(stepper)
+stepper1.forward(0.001, 50);
+stepper1.backward(0.001, 50);
+stepper1.forward(0.001, 50);
+stepper1.backward(0.001, 50);
+stepper1.forward(0.001, 50);
+stepper1.backward(0.001, 50);
