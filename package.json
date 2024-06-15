@@ -2,18 +2,16 @@
   "name": "stepper",
   "module": "src/index.ts",
   "devDependencies": {
-    "@types/bun": "latest",
-    "@types/rpio": "^2.4.6"
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "start": "bun run src/index.ts"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
-  "trustedDependencies": [
-    "epoll",
-    "rpio"
-  ],
   "type": "module",
   "dependencies": {
-    "rpio": "^2.4.2"
+    "bun_python": "^0.1.4"
   }
 }
