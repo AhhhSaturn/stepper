@@ -1,4 +1,3 @@
-
 declare module "*.py" {
     export class Stepper {
         constructor(motor: 'STEPPER1' | 'STEPPER2');

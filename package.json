@@ -1,11 +1,12 @@
 {
   "name": "stepper",
-  "module": "src/index.ts",
+  "module": "index.ts",
+  "exports": {
+    "default": "./index.ts",
+    "types": "./types.d.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
-  },
-  "scripts": {
-    "start": "bun run src/index.ts"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
