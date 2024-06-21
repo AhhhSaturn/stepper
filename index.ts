@@ -1,5 +1,5 @@
-import * as sheild from 'lib/sheild/sheild.py';
-import type { Arrow, Stepper } from './types';
+import { Arrow, Stepper } from 'lib/sheild/sheild.py';
+import type { Arrow as ArrowType, Stepper as StepperType } from './types';
 
-export default sheild;
-export type { Arrow, Stepper };
+export { Arrow, Stepper };
+export type { ArrowType, StepperType };
